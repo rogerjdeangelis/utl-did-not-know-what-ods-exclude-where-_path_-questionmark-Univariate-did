@@ -1,0 +1,72 @@
+                                                The UNIVARIATE Procedure
+                                             Variable:  AGE  (Age in years)
+
+                                                        Moments
+
+N                                 19    Sum Weights                       19
+Mean                       13.157895    Sum Observations          250.000000
+Std Deviation               1.500487    Variance                    2.251462
+Skewness                    0.142047    Kurtosis                   -0.908670
+Uncorrected SS           3330.000000    Corrected SS               40.526316
+Coeff Variation            11.403703    Std Error Mean              0.344235
+
+         Basic Statistical Measures         
+
+Location             Variability            
+--------  ---------  -------------  --------
+Mean      13.157895  Std Deviation  1.500487
+Median    13.000000  Variance       2.251462
+Mode      12.000000  Range          5.000000
+
+     NOTE: The mode displayed is the smallest of 3 modes with a count of 4.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      11.000000
+1%          11.000000
+5%          11.000000
+10%         11.000000
+25% Q1      12.000000
+50% Median  13.000000
+75% Q3      14.000000
+90%         15.000000
+95%         16.000000
+99%         16.000000
+100% Max    16.000000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     11.000000  Value     14.000000
+Value     11.000000  Value     15.000000
+Value     11.000000  Value     15.000000
+Value     12.000000  Value     15.000000
+Value     12.000000  Value     16.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         38.223539358         0
+Sign                      9.5  0.000003815
+Signed Rank               190  0.00013188
+
+
+  Obs       VarName  Type  Rank    NAME  Value
+-----  ------------  ----  ----  ------  -----
+    1  Age in years  Low      1  Diana      11
+    2  Age in years  Low      2  Ivan       11
+    3  Age in years  Low      3  Rosa       11
+    4  Age in years  Low      4  Carlos     12
+    5  Age in years  Low      5  Hannah     12
+    6  Age in years  High     1  Samuel     14
+    7  Age in years  High     2  Ethan      15
+    8  Age in years  High     3  Julia      15
+    9  Age in years  High     4  Oscar      15
+   10  Age in years  High     5  Kevin      16

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_univariate_extremeobs",
+  "source_file": "utl-did-not-know-what-ods-exclude-where-_path_-questionmark-Univariate-did.sas",
+  "source_blob_sha": "31d761dd35fa2e63b6daaf661813b7375f683122",
+  "source_commit": "deb716c7d6bb34f370e9e628ced838ab0d4b8e31",
+  "notes": "PROC UNIVARIATE on sashelp.class(name,age) with nextrobs=5, id name — the repo's demonstration. Applies the repo's `ods exclude where=(_path_ ? 'Univariate')` statement, captures the Extreme Observations table via `ods output extremeobs=want`, and prints it. Data is the built-in sashelp.class, so nothing is sampled or rewritten; the only adaptation from the commentary block is a `proc print data=want` so the captured dataset is visible, and the ExtremeObs capture is taken generically."
+}

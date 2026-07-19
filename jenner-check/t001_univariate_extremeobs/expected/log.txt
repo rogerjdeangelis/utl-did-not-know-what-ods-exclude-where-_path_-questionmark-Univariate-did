@@ -1,0 +1,9 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: ODS OUTPUT: EXTREMEOBS -> want
+NOTE: PROC UNIVARIATE
+NOTE: ODS OUTPUT: All output destinations closed.
+NOTE: PROC PRINT data=want
+
+NOTE: PROC PRINT completed: 10 observations printed, 5 variables
